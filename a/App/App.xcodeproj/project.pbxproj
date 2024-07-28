@@ -3,100 +3,106 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		219248AF2C565A5100904C28 /* IpaMiniFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C7CA042C5602EE008C5EEE /* IpaMiniFramework.framework */; };
+		211A9EB92C566528005CDEFA /* AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A9EB82C566528005CDEFA /* AppApp.swift */; };
+		211A9EBB2C566528005CDEFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A9EBA2C566528005CDEFA /* ContentView.swift */; };
+		211A9EBD2C566529005CDEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211A9EBC2C566529005CDEFA /* Assets.xcassets */; };
+		211A9EC02C566529005CDEFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211A9EBF2C566529005CDEFA /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		21C7C9F22C56004B008C5EEE /* IpaMiniApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IpaMiniApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		21C7CA042C5602EE008C5EEE /* IpaMiniFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IpaMiniFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		211A9EB52C566528005CDEFA /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		211A9EB82C566528005CDEFA /* AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppApp.swift; sourceTree = "<group>"; };
+		211A9EBA2C566528005CDEFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		211A9EBC2C566529005CDEFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		211A9EBF2C566529005CDEFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		21C7C9F42C56004B008C5EEE /* IpaMiniApp */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = IpaMiniApp; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		21C7C9EF2C56004B008C5EEE /* Frameworks */ = {
+		211A9EB22C566528005CDEFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				219248AF2C565A5100904C28 /* IpaMiniFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21C7C9E92C56004B008C5EEE = {
+		211A9EAC2C566528005CDEFA = {
 			isa = PBXGroup;
 			children = (
-				21C7C9F42C56004B008C5EEE /* IpaMiniApp */,
-				21C7C9F32C56004B008C5EEE /* Products */,
-				21C7CA032C5602EE008C5EEE /* Frameworks */,
+				211A9EB72C566528005CDEFA /* App */,
+				211A9EB62C566528005CDEFA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		21C7C9F32C56004B008C5EEE /* Products */ = {
+		211A9EB62C566528005CDEFA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21C7C9F22C56004B008C5EEE /* IpaMiniApp.app */,
+				211A9EB52C566528005CDEFA /* App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		21C7CA032C5602EE008C5EEE /* Frameworks */ = {
+		211A9EB72C566528005CDEFA /* App */ = {
 			isa = PBXGroup;
 			children = (
-				21C7CA042C5602EE008C5EEE /* IpaMiniFramework.framework */,
+				211A9EB82C566528005CDEFA /* AppApp.swift */,
+				211A9EBA2C566528005CDEFA /* ContentView.swift */,
+				211A9EBC2C566529005CDEFA /* Assets.xcassets */,
+				211A9EBE2C566529005CDEFA /* Preview Content */,
 			);
-			name = Frameworks;
+			path = App;
+			sourceTree = "<group>";
+		};
+		211A9EBE2C566529005CDEFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				211A9EBF2C566529005CDEFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		21C7C9F12C56004B008C5EEE /* IpaMiniApp */ = {
+		211A9EB42C566528005CDEFA /* App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21C7CA002C56004D008C5EEE /* Build configuration list for PBXNativeTarget "IpaMiniApp" */;
+			buildConfigurationList = 211A9EC32C566529005CDEFA /* Build configuration list for PBXNativeTarget "App" */;
 			buildPhases = (
-				21C7C9EE2C56004B008C5EEE /* Sources */,
-				21C7C9EF2C56004B008C5EEE /* Frameworks */,
-				21C7C9F02C56004B008C5EEE /* Resources */,
+				211A9EB12C566528005CDEFA /* Sources */,
+				211A9EB22C566528005CDEFA /* Frameworks */,
+				211A9EB32C566528005CDEFA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				21C7C9F42C56004B008C5EEE /* IpaMiniApp */,
-			);
-			name = IpaMiniApp;
-			packageProductDependencies = (
-			);
-			productName = IpaMiniApp;
-			productReference = 21C7C9F22C56004B008C5EEE /* IpaMiniApp.app */;
+			name = App;
+			productName = App;
+			productReference = 211A9EB52C566528005CDEFA /* App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		21C7C9EA2C56004B008C5EEE /* Project object */ = {
+		211A9EAD2C566528005CDEFA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					21C7C9F12C56004B008C5EEE = {
-						CreatedOnToolsVersion = 16.0;
+					211A9EB42C566528005CDEFA = {
+						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 21C7C9ED2C56004B008C5EEE /* Build configuration list for PBXProject "IpaMiniApp" */;
+			buildConfigurationList = 211A9EB02C566528005CDEFA /* Build configuration list for PBXProject "App" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,38 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 21C7C9E92C56004B008C5EEE;
-			productRefGroup = 21C7C9F32C56004B008C5EEE /* Products */;
+			mainGroup = 211A9EAC2C566528005CDEFA;
+			productRefGroup = 211A9EB62C566528005CDEFA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21C7C9F12C56004B008C5EEE /* IpaMiniApp */,
+				211A9EB42C566528005CDEFA /* App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		21C7C9F02C56004B008C5EEE /* Resources */ = {
+		211A9EB32C566528005CDEFA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				211A9EC02C566529005CDEFA /* Preview Assets.xcassets in Resources */,
+				211A9EBD2C566529005CDEFA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		21C7C9EE2C56004B008C5EEE /* Sources */ = {
+		211A9EB12C566528005CDEFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				211A9EBB2C566528005CDEFA /* ContentView.swift in Sources */,
+				211A9EB92C566528005CDEFA /* AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		21C7C9FE2C56004D008C5EEE /* Debug */ = {
+		211A9EC12C566529005CDEFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +197,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -198,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		21C7C9FF2C56004D008C5EEE /* Release */ = {
+		211A9EC22C566529005CDEFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -254,14 +264,14 @@
 			};
 			name = Release;
 		};
-		21C7CA012C56004D008C5EEE /* Debug */ = {
+		211A9EC42C566529005CDEFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"IpaMiniApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
 				DEVELOPMENT_TEAM = Q4J8HDK83K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -270,13 +280,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ipadump.IpaMiniApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipadump.App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -284,14 +293,14 @@
 			};
 			name = Debug;
 		};
-		21C7CA022C56004D008C5EEE /* Release */ = {
+		211A9EC52C566529005CDEFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"IpaMiniApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
 				DEVELOPMENT_TEAM = Q4J8HDK83K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -300,13 +309,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ipadump.IpaMiniApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipadump.App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		21C7C9ED2C56004B008C5EEE /* Build configuration list for PBXProject "IpaMiniApp" */ = {
+		211A9EB02C566528005CDEFA /* Build configuration list for PBXProject "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21C7C9FE2C56004D008C5EEE /* Debug */,
-				21C7C9FF2C56004D008C5EEE /* Release */,
+				211A9EC12C566529005CDEFA /* Debug */,
+				211A9EC22C566529005CDEFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21C7CA002C56004D008C5EEE /* Build configuration list for PBXNativeTarget "IpaMiniApp" */ = {
+		211A9EC32C566529005CDEFA /* Build configuration list for PBXNativeTarget "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21C7CA012C56004D008C5EEE /* Debug */,
-				21C7CA022C56004D008C5EEE /* Release */,
+				211A9EC42C566529005CDEFA /* Debug */,
+				211A9EC52C566529005CDEFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 21C7C9EA2C56004B008C5EEE /* Project object */;
+	rootObject = 211A9EAD2C566528005CDEFA /* Project object */;
 }
