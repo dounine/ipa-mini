@@ -14,7 +14,4 @@ FOUNDATION_EXPORT double IpaMiniFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char IpaMiniFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <IpaMiniFramework/PublicHeader.h>
-
-//#import <IpaMiniFramework/SwiftLoad.h>
-
-//SWIFTY_LOAD_INITIALIZE(FloatBtn)
+#import <IpaMiniFramework/swift.h>
