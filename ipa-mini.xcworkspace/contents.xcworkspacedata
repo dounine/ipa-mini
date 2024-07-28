@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SwiftLoad/SwiftLoad.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:IpaMiniApp/IpaMiniApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:IpaMiniFramework/IpaMiniFramework.xcodeproj">
+   </FileRef>
+</Workspace>
